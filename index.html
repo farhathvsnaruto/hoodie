@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoodies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <h1 style="cursor: pointer;">Logo</h1>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="search" class="search">
+                <button><i class="material-icons">search</i></button>
+            </div>
+            <div class="options">
+                <ul>
+                    <li class="b"><a href="#header">HOME</a></li>
+                    <li class="b"><a href="#products">PRODUCTS</a></li>
+                    <li class="b"><a href="#us">ABOUT US</a></li>
+                    <li class="b"><a href="#c">CONTECT</a></li>
+                    <li><i class="material-icons a">menu</i></li>
+                </ul>
+            </div>
+        </nav>
+        <p class="text">BEST CLOTH STORE</p>
+    </header>
+
+    <main>
+        <section class="products" id="products">
+            <h1 style="font-size: 40px;" data-aos="fade-down">PRODUCTS</h1>
+            <div class="productsection">
+                <div class="product 1" data-aos="fade-right">
+                    <img src="products/1.png">
+                    <h4>Brown Hoodies</h4>
+                    <p>$4.99</p>
+                    <button class="button">Buy</button>
+                </div>
+                <div class="product 2" data-aos="fade-right">
+                    <img src="products/2.png">
+                    <h4>Black hoodies</h4>
+                    <p>$5.60</p>
+                    <button class="button">Buy</button>
+                </div>
+                <div class="product 3" data-aos="fade-left">
+                    <img src="products/3.png">
+                    <h4>Grean hoodies</h4>
+                    <p>$10.99</p>
+                    <button class="button">Buy</button>
+                </div>
+                <div class="product 4" data-aos="fade-left">
+                    <img src="products/4.png">
+                    <h4>Yellow hoodies</h4>
+                    <p>$8.60</p>
+                    <button class="button">Buy</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="aboutus" id="us">
+            <div class="about">
+                <img src="oswaldo-ibanez-1NPUmTaiMeg-unsplash.jpg" class="img" data-aos="fade-right">
+                <div class="textandimage">
+                    <h1 data-aos="fade-right">ABOUT US</h1>
+                    <p data-aos="fade-right">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea excepturi neque laudantium quidem, blanditiis est aperiam, tempore dignissimos magnam voluptatum ad architecto eum possimus beatae similique commodi earum quod molestias nihil velit numquam, eius vero? Dolorem accusamus nobis qui distinctio officia illo explicabo repudiandae doloribus, harum cumque esse repellendus? Esse!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contect" id="c">
+            <h1>CONTECT</h1>
+            <div class="forms">
+                <form action="https://formsubmit.co/farhan.farhath2013@gmail.com" method="POST" />
+                    <table>
+                        <tr>
+                            <td><input type="text" placeholder="Name" name="name" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="email" placeholder="Email" name="email" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="password" placeholder="Pasword" name="password" required></td>
+                        </tr> 
+                        <tr>
+                            <td><textarea placeholder="Comments" name="comments" required></textarea></td>
+                        </tr>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_autoresponse" value="Thanks for your message!">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                        <tr>
+                            <td><input type="submit" class="submit" data-aos="flip-left"></td>
+                        </tr>
+
+                    </table>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="scosial">
+            <i class="fa-brands fa-instagram a1"></i>
+            <i class="fa-brands fa-snapchat a2"></i>
+            <i class="fa-brands fa-square-twitter a3"></i>
+            <i class="fa-brands fa-facebook a4"></i>
+        </div>
+        <div class="menu">
+            <p>HOME</p>
+            <p>PRODUCTS</p>
+            <p>ABOUT US</p>
+            <p>CONTECT</p>
+        </div>
+        <div class="coppywright">
+            <p>Farhath© 2025</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
